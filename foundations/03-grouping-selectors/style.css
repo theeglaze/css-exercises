@@ -1,0 +1,15 @@
+/* Selector common to differing elements */
+
+.fe,.se {
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", "san-serif";
+}
+
+.fe{
+    background-color: black;
+    color: white;
+}
+
+.se {
+    background-color: yellow;
+}
