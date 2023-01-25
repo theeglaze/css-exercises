@@ -3,18 +3,33 @@
   background: papayawhip;
 }
 
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* A header was converted to a flex container and its contents spaced evenly*/
+
 .logo {
   font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  gap: 10px;
 }
+
+/* An unordered list was converted to flex items and spaced with the flex attribute gap */
 
 a {
   font-size: 22px;

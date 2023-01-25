@@ -5,6 +5,14 @@
   height: 300px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The box was centered using the flexbox layout*/
+
 .box {
   background: palevioletred;
   font-weight: bold;
@@ -13,3 +21,4 @@
   width: 80px;
   height: 80px;
 }
+

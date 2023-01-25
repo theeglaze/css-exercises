@@ -10,7 +10,27 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
 }
+
+/* The title Div was styled as instructed (Glaze)*/
+
+.container{
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.coffee, .pepper, .berry, .flower{
+  display: flex;
+  max-width: 200px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+/* The following flex containers/items were added to the html file. The divs were then styled as instructed (Glaze)*/
 
 /* do not edit this footer */
 .footer {
