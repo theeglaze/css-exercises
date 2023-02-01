@@ -26,3 +26,60 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* Glaze's Solutions */
+
+.header, .footer{
+  display: flex;
+  align-items: center;
+}
+
+.title{
+  font-size: 32px;
+  font-weight: 900;
+  margin-left: 16px;
+}
+
+
+.main{
+  display: flex;
+}
+
+.sidebar{
+  width: 300px;
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+a{
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type:none;
+}
+
+.csection{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 32px;
+}
+
+.card{
+  width: 300px;
+  padding: 32px;
+}
+
+.footer{
+  justify-content: center;
+}
+
+
+.l1, .l2, .l3, .l4{
+
+margin: 12px;
+}
+
